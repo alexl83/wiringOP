@@ -2344,6 +2344,7 @@ void piBoardId (int * model)
 	else if (strncmp(revision, "orangepi5pro.",            13) == 0) { *model = PI_MODEL_5_PRO; }
 	else if (strncmp(revision, "orangepi5max.",            13) == 0) { *model = PI_MODEL_5_MAX; }
 	else if (strncmp(revision, "orangepi5plus.",           14) == 0) { *model = PI_MODEL_5_PLUS; }
+	else if (strncmp(revision, "orangepi5-plus.",          14) == 0) { *model = PI_MODEL_5_PLUS; }
 	else if (strncmp(revision, "orangepi900.",             12) == 0) { *model = PI_MODEL_900; }
 	else if (strncmp(revision, "orangepicm5.",             12) == 0) { *model = PI_MODEL_CM5; }
 	else if (strncmp(revision, "orangepicm5-tablet.",      19) == 0) { *model = PI_MODEL_CM5_TABLET; }
